@@ -25,7 +25,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://e-learn-hackathon-client.vercel.app",
     credentials: true,
     maxAge: 14400,
   })
